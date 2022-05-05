@@ -11,5 +11,5 @@
 4. routing with React-Router-Dom
 5. backend server with express and nodemon for fast reload
 6. fetch products from backend (ajax request) using axios
-7. useReducer to manage complex state changes
+7. useReducer to manage complex state changes<br/>
    7.1 use-reducer-logger to debug state and find issues in state changes
