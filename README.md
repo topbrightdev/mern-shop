@@ -12,4 +12,4 @@
 5. backend server with express and nodemon for fast reload
 6. fetch products from backend (ajax request) using axios
 7. useReducer to manage complex state changes
-   \*\*use-reducer-logger to debug state and find issues in state changes
+   7.1 use-reducer-logger to debug state and find issues in state changes
