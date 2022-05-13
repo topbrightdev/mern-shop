@@ -7,27 +7,32 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-header {
-  background-color: #002a5a;
-  padding: 1rem;
-}
-header a {
-  color: #ffffff;
-  font-size: 1.635rem;
-  font-weight: bold;
-  text-decoration: none;
+.site-container {
+  min-height: 100vh;
 }
 
 main {
-  padding: 1rem;
+  flex: 1;
 }
-
+a {
+  text-decoration: none;
+  color: #00005B;
+}
+.btn-outline-primary:hover {
+  background-color: #00727a;
+}
+.btn-outline-primary {
+  color: #000000;
+  border-color: #00727a;
+}
 .products {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
+.rating span {
+  color: #00727a;
+}
 .product {
   border: 1px solid #404040;
   margin: 1rem;
