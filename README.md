@@ -13,6 +13,7 @@
 6. fetch products from backend (ajax request) using axios
 7. useReducer to manage complex state changes
    \*\*use-reducer-logger to debug state and find issues in state changes
-8. React-Bootstrap UI framework for responsive design  
+8. React-Bootstrap UI framework for responsive design
 9. convert product screen to bootstrap container
-   *ui changes for product card :smiley:
+   \*ui changes for product card :smiley:
+10. fetch products from backend and ui for product screen,\*update meta data using react-helmet-async
