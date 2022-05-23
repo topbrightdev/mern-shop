@@ -18,4 +18,9 @@
    \*ui changes for product card :smiley:
 10. fetch products from backend and ui for product screen,\*update meta data using react-helmet-async 
 11.setting error messages
+12. implement add to cart functionality
+   *create react context
+   *define reducer
+   *create store provider
+   *implement add to cart button click handler
 
