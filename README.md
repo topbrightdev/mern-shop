@@ -26,3 +26,5 @@
 12. fix add to cart to prevent duplicate items (use quantity counter)
 13. cartscreen functionality
 14. signin form design
+15. Connect to mongoDb database
+16. seed sample data to mongodb
