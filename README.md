@@ -12,12 +12,13 @@
 5. backend server with express and nodemon for fast reload
 6. fetch products from backend (ajax request) using axios
 7. useReducer to manage complex state changes
-   \*\*use-reducer-logger to debug state and find issues in state changes
+   -use-reducer-logger to debug state and find issues in state changes
 8. React-Bootstrap UI framework for responsive design
 9. convert product screen to bootstrap container
-   \*ui changes for product card :smiley:
-10. fetch products from backend and ui for product screen,\*update meta data using react-helmet-async
-    11.setting error messages
+   -ui changes for product card :smiley:
+10. fetch products from backend and ui for product screen
+    -update meta data using react-helmet-async
+    -setting error messages
 11. implement add to cart functionality
     *create react context
     *define reducer
@@ -37,3 +38,4 @@
     -show user name in header
     -react-toastify to show error message
     -signout handler function
+20. shipping screen

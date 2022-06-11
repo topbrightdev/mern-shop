@@ -86,7 +86,7 @@ export default function CartScreen() {
                       {''}
                     </Col>
                     <Col md={3}>
-                      <strong> GHS {item.price} </strong>
+                      <strong> GH₵ {item.price} </strong>
                     </Col>
                     <Col md={2}>
                       <Button
@@ -109,7 +109,7 @@ export default function CartScreen() {
                 <ListGroup.Item>
                   <h3>
                     Subtotal ({cartItems.reduce((a, c) => a + c.quantity, 0)}{' '}
-                    items) : GHS
+                    items) : GH₵
                     {cartItems.reduce((a, c) => a + c.price * c.quantity, 0)}
                   </h3>
                 </ListGroup.Item>

@@ -55,3 +55,15 @@ a {
 .small-container {
   max-width: 600px;
 }
+.checkout-steps > div {
+  border-bottom: 0.2rem solid #a0a0a0;
+  color: #a0a0a0;
+}
+.checkout-steps > div.active {
+  border-bottom: 0.2rem solid #00727a;
+  color: #00727a;
+}
+.form-check-input:checked {
+  background-color: #00727a !important;
+  border-color: #00727a !important;
+}
