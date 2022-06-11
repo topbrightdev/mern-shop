@@ -28,3 +28,12 @@
 14. signin form design
 15. Connect to mongoDb database
 16. seed sample data to mongodb
+17. seed sample user to mongodb
+18. signin api
+    - user routes
+19. complete signin screen
+    -handle submit action
+    -save token in store and local storage
+    -show user name in header
+    -react-toastify to show error message
+    -signout handler function
