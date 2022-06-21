@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "@paypal/react-paypal-js": "^7.8.1",
+    "@react-google-maps/api": "^2.12.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
