@@ -71,7 +71,9 @@ $ npm start
 
 - Contact Me: [Mbedobe](mailto:reinittservices@gmail.com)
 
-##This project was built during a tutorial by [@basir](https://github.com/basir)
+## This project was built thanks to a tutorial by [@basir](https://github.com/basir)
+
+    - The lessons structure is detailed below:
 
 # Lessons
 
