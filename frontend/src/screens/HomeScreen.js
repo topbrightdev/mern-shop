@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import { Helmet } from 'react-helmet-async';
 import LoadingBox from '../components/LoadingBox';
 import MessageBox from '../components/MessageBox';
+import Product from '../components/Product';
 
 const reducer = (state, action) => {
   switch (action.type) {
@@ -55,6 +56,7 @@ export default function HomeScreen() {
             {products.map((product) => (
               <Col key={product.slug} sm={6} md={4} lg={3} className="mb-3">
                 {/* <Product product={product}></Product> */}
+                <Product product={product}></Product>
               </Col>
             ))}
           </Row>
