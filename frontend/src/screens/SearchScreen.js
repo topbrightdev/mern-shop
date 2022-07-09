@@ -10,7 +10,6 @@ import Rating from '../components/Rating';
 import LoadingBox from '../components/LoadingBox';
 import MessageBox from '../components/MessageBox';
 import Button from 'react-bootstrap/Button';
-import Product from '../components/Product';
 import LinkContainer from 'react-router-bootstrap/LinkContainer';
 
 const reducer = (state, action) => {
