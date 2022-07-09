@@ -254,7 +254,7 @@ export default function SearchScreen() {
               <Row>
                 {products.map((product) => (
                   <Col sm={6} lg={4} className="mb-3" key={product._id}>
-                    <Product product={product}></Product>
+                    {/* <Product product={product}></Product> */}
                   </Col>
                 ))}
               </Row>
