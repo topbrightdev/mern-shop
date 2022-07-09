@@ -1,12 +1,12 @@
+import axios from 'axios';
+import React, { useContext } from 'react';
+import { Store } from '../Store';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import Rating from './Rating';
-import axios from 'axios';
-import { useContext } from 'react';
-import { Store } from '../Store';
 
-function Product(props) {
+export default function Product(props) {
   const { product } = props;
   const { state, dispatch: ctxDispatch } = useContext(Store);
   const {
@@ -26,7 +26,6 @@ function Product(props) {
       payload: { ...item, quantity },
     });
   };
-
   return (
     <Card>
       <Link to={`/product/${product.slug}`}>
@@ -49,7 +48,10 @@ function Product(props) {
               Out of stock
             </Button>
           ) : (
-            <Button variant='outline-primary' onClick={() => addToCartHandler(product)}>
+            <Button
+              variant="outline-primary"
+              onClick={() => addToCartHandler(product)}
+            >
               Add to cart
             </Button>
           )}
@@ -58,4 +60,3 @@ function Product(props) {
     </Card>
   );
 }
-export default Product;
