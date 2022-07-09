@@ -2,10 +2,10 @@ import React, { useEffect, useReducer } from 'react';
 import axios from 'axios';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Product from '../components/Product';
 import { Helmet } from 'react-helmet-async';
 import LoadingBox from '../components/LoadingBox';
 import MessageBox from '../components/MessageBox';
+import ProductScreen from './ProductScreen';
 
 const reducer = (state, action) => {
   switch (action.type) {
@@ -55,7 +55,7 @@ export default function HomeScreen() {
           <Row>
             {products.map((product) => (
               <Col key={product.slug} sm={6} md={4} lg={3} className="mb-3">
-                <Product product={product}></Product>
+                <ProductScreen product={product}></ProductScreen>
               </Col>
             ))}
           </Row>
